@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbelly</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- font awesome  -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- css link  -->
+    <link rel="stylesheet" href="sass/main.css">
+    <!-- font awesome  -->
+    <link href="https://kit-pro.fontawesome.com/releases/v6.1.1/css/pro.min.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Monoton&family=Signika:wght@600&family=Titillium+Web:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- header and navbar starts  -->
+
+    <header id="header">
+
+        <!-- company left logo  -->
+
+        <a class="header-company-logo" href="#">
+            <img src="https://elanta.app/nazar/starbelly-demo/img/ui/logo.svg" alt="logo coming">
+        </a>
+
+        <!-- header mid navbar -->
+
+        <nav class="navbar">
+
+            <ul>
+
+                <li><a href="#">Home</a>
+                    <ul>
+                        <li><a href="#">Type 1</a></li>
+                        <li><a href="#">Type 2</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Pages</a>
+
+                    <ul>
+                        <li><a href="#">About 1</a></li>
+                        <li><a href="#">About 2</a></li>
+                        <li><a href="#">Blog style 1</a></li>
+                        <li><a href="#">Blog style 2</a></li>
+                        <li><a href="#">Blog style 3</a></li>
+                        <li><a href="#">Publication 1</a></li>
+                        <li><a href="#">Publication 2</a></li>
+                        <li><a href="#">Publication 3</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Gallery 2</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Reservation</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">404</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="#">Menu</a>
+                    <ul>
+                        <li><a href="#">Menu style 1</a></li>
+                        <li><a href="#">Menu style 2</a></li>
+                        <li><a href="#">Menu style 3</a></li>
+                        <li><a href="#">Menu style 4</a></li>
+                        <li><a href="#">Menu style 5</a></li>
+                        <li><a href="#">Menu style 6</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Shop</a>
+                    <ul>
+                        <li><a href="#">Shop style 1</a></li>
+                        <li><a href="#">Shop style 2</a></li>
+                        <li><a href="#">Shop list 1</a></li>
+                        <li><a href="#">Shop list 2</a></li>
+                        <li><a href="#">Product page</a></li>
+                        <li><a href="#">Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+        <!-- header right icon setion  -->
+
+        <div class="icon-box">
+
+            <button type="button" class="notifaction-btn">
+
+                <img class="bag-icon" src="	https://elanta.app/nazar/starbelly-demo/img/ui/icons/cart.svg" alt="icon">
+
+                <span class="icon-button__badge">5</span>
+
+            </button>
+
+            <span class="menu-btn" id="menu-btn"> <i class="fa-solid fa-bars"></i></span>
+
+            <span class="dots-icon"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+
+        </div>
+
+
+
+        <!-- cart-items constainer  -->
+
+        <div class="cart-items-container">
+
+            <div class="cart-different-items">
+                <!-- heading  -->
+                <div class="cart-title-heading">
+                    <h4 class="title-cart"> Your Order.</h4>
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+                <!-- 1  -->
+                <div class="cart-items">
+
+                    <img src="https://elanta.app/nazar/starbelly-demo/img/menu/4.jpg" alt="">
+                    <h3>Saumon gravlax</h3>
+                    <div class="price"><span>$</span>9</div>
+                </div>
+                <!-- 2 -->
+                <div class="cart-items">
+
+                    <img src="	https://elanta.app/nazar/starbelly-demo/img/menu/1.jpg" alt="">
+                    <h3>Chevrefrit au miel</h3>
+                    <div class="price"><span>$</span>14</div>
+                </div>
+                <!-- 3 -->
+                <div class="cart-items">
+
+                    <img src="	https://elanta.app/nazar/starbelly-demo/img/menu/2.jpg" alt="">
+                    <h3>Croustillant de poisson</h3>
+                    <div class="price"><span>$</span>4</div>
+                </div>
+                <!-- 4 -->
+                <div class="cart-items">
+
+                    <img src="	https://elanta.app/nazar/starbelly-demo/img/menu/3.jpg" alt="">
+                    <h3>Stracciatella</h3>
+                    <div class="price"><span>$</span>11</div>
+                </div>
+                <!-- 5 -->
+                <div class="cart-items">
+
+                    <img src="	https://elanta.app/nazar/starbelly-demo/img/menu/5.jpg" alt="">
+                    <h3>Carpaccio de daurade</h3>
+                    <div class="price"><span>$</span>19</div>
+                </div>
+
+            </div>
+
+            <div class="cart-footer">
+
+                <!-- 1st button for view order -->
+
+                <a href="#" class="btn-view-order">View order</a>
+
+                <!-- 2nd button for checkout  -->
+
+                <a href="#" class="btn">Checkout</a>
+
+            </div>
+
+        </div>
+
+
+    </header>
+
+    <!-- header container ends -->
+
+
+    <!-- content container starts  -->
+
+
+    <section id="content">
+
+        <div class="content-container">
+
+            <div class="box left-box">
+
+                <div class="contact">Contact</div>
+
+                <h1 class="content-heading">Get in Touch with Starbelly</h1>
+
+                <p class="content-sub-heading">Consectetur numquam poro nemo veniam eligendi rem adipisci quo modi.</p>
+
+                <div class="yellow-box btn">
+
+                    <h5 class="home">Home</h5>
+                    <h5 class="contactt">Contact</h5>
+
+                </div>
+
+            </div>
+
+            <div class="box right-box">
+
+                <div class="message-container">
+
+                    <div class="dotted-border">
+
+                        <div class="message-heading">Send Message</div>
+
+
+                        <div class="floating-image">
+                            <img src="https://elanta.app/nazar/starbelly-demo/img/illustrations/envelope-1.png"
+                                alt="envelope" class="sb-envelope-1">
+                            <img src="	https://elanta.app/nazar/starbelly-demo/img/illustrations/envelope-2.png"
+                                alt="envelope" class="sb-envelope-2">
+                            <div class="sb-cirkle-1"></div>
+                            <div class="sb-cirkle-2"></div>
+                            <div class="sb-cirkle-3"></div>
+                        </div>
+
+                        <form action="#">
+
+                            <input type="text" placeholder="Name" required="required">
+
+                            <input type="email" name="email" id="email" placeholder="Email" required="required">
+
+                            <textarea name="message" required="required" placeholder="Message" id="message" cols="30"
+                                rows="5"></textarea>
+
+                            <div class="promise">*We promise not to disclose your <br> personal information to third
+                                parties
+                            </div>
+
+                            <button class="btn" type="submit">
+
+                                <img src="	https://elanta.app/nazar/starbelly-demo/img/ui/icons/arrow.svg
+    " alt="">
+
+                                <p>Send</p>
+
+                            </button>
+
+                        </form>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- content container ends  -->
+
+
+    <!-- 2nd section starts -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <div class="c-box">
+
+                <div class="digit">01</div>
+
+                <div class="info">
+
+                    <h1 class="heading">Welcome</h1>
+
+                    <h4 class="sub-heading">Montréal, 1510 Rue Sauvé</h4>
+
+                </div>
+            </div>
+
+            <div class="c-box">
+
+                <div class="digit">02</div>
+
+                <div class="info">
+
+                    <h1 class="heading">Call</h1>
+
+                    <h4 class="sub-heading">+02 (044) 756-X6-52</h4>
+
+                </div>
+            </div>
+
+            <div class="c-box">
+
+                <div class="digit">03</div>
+
+                <div class="info">
+
+                    <h1 class="heading">Write</h1>
+
+                    <h4 class="sub-heading">starbelly@mail.com</h4>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- 2nd section ends -->
+
+
+
+    <!-- 3rd map section starts -->
+
+
+    <section id="map">
+
+        <div>
+
+            <div><i class="fa-solid fa-location-dot"></i></div>
+
+            <div class="map"><iframe class="location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.0428174911535!2d-3.69284768464312!3d40.45218927936098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e2fe54acd3%3A0x7bdf12a106fcb23e!2sSantiago%20Bernabeu!5e0!3m2!1sen!2sin!4v1663895814890!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;width: 100%;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- 3rd map section ends -->
+
+
+    <!-- footer starts  -->
+
+    <section class="footer-section">
+
+        <footer class="footer">
+
+            <div class="image">
+
+                <img src="https://elanta.app/nazar/starbelly-demo/img/ui/logo.svg" alt="">
+
+            </div>
+
+            <div class="brands">
+
+                <a href="#"><i class='fab'>&#xf16d;</i></a>
+                <a href="#"><i class='fab'>&#xf39e;</i></a>
+                <a href="#"><i class='fab'>&#xf167;</i></a>
+                <a href="#"> <i class='fab'>&#xf099;</i></a>
+
+            </div>
+
+            <div class="rights">
+                © late 2021 Starbelly. All Rights Reserved.
+            </div>
+
+        </footer>
+
+    </section>
+
+
+    <!-- footer ends  -->
+
+
+
+
+
+
+
+
+
+    <!-- js file  -->
+
+    <script src="JavaScript/star.js"></script>
+
+</body>
+
+</html>
